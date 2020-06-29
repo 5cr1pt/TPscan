@@ -17,7 +17,7 @@ def thinkphp_invoke_func_code_exec_verify(url):
         "exception":"",
     }
     headers = {
-        "User-Agent" : 'TPscan',
+        "User-Agent" : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0)',
     }
     controllers = list()
     req = requests.get(url, headers=headers, timeout=15, verify=False)

